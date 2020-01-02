@@ -1,0 +1,9 @@
+# spring boot Hadoop
+spring:
+  hadoop:
+    fs-uri: hdfs://192.168.109.137:9000
+
+# Hadoop client
+hadoop:
+  name-node: hdfs://192.168.109.137:9000/
+  directory-path: /data
